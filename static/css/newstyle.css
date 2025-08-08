@@ -33,7 +33,7 @@ a:hover{
 }
 #header {
     color: white;
-    background: #001432e8;
+    background: #001432dd;
     height: 5rem;
     display: grid;
     align-content: space-evenly;
@@ -90,7 +90,7 @@ a {
 }
 
 #banner{
-	background:url('../images/bg.jpeg') no-repeat 0 0;
+	background:url('../images/bg.jpeg')  no-repeat center center;
 	background-size: 100%;
     background-position-y: center;
 	background-repeat: no-repeat;
@@ -212,7 +212,9 @@ element.style {
 
 
 #Encrypt {
-	background: url('../images/encrypt-bg.jpg') no-repeat center center;
+	/* background: url('../images/encrypt-bg.jpg') no-repeat center center; */
+	/* background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%); */
+	background:url('../images/background.jpg')  no-repeat center center;
 	background-size: cover;
 	padding: 60px 20px;
 	color: white;
